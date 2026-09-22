@@ -1,0 +1,1 @@
+{"name":"minterra","version":"0.1.0","private":true,"type":"module","scripts":{"dev":"vite --host 127.0.0.1 --port 5187 --strictPort","build":"tsc --noEmit && vite build","test":"tsx --test tests/*.test.ts","bench":"tsx tests/benchmark.ts"},"dependencies":{"@babylonjs/core":"8.26.0"},"devDependencies":{"vite":"6.3.6","typescript":"5.8.3","tsx":"4.20.3","@types/node":"22.15.30"}}
