@@ -1,11 +1,9 @@
-# Module und nächster Schritt
+# Module · 0.3.0
 
-- simulation.ts: Netz, Dijkstra-Routen, feste Bewohnerpläne, deterministische Ereigniswarteschlange, echte Auto-Wartephasen, Hin-/Aufenthalts-/Rückreise mit Kapazitätsprüfung.
-- worker.ts: validierte Simulation im Hintergrundthread. Kein Servermodell und keine Netzwerkabfrage.
-- world.ts: Babylon-Szene, Modellhäuser, Auswahl, Bewohnerpositionen und Vorher-/Nachher-Routen.
-- state.ts: Schema 1, Budget relativ zur übernommenen Basis, vollständige Undo-Entwürfe und valide Spielstandübernahme.
-- main.ts: Bedienung, Vergleich, Wiedergabe und lokaler Import/Export. Noch kleine zentrale UI-Datei; erst bei notwendiger Erweiterung aufteilen.
-- i18n.ts: lokale DE/EN-Präsentation. Keine Änderung der Spielschlüssel oder Bewohnernamen durch Sprachwechsel.
-- server.mjs: lokaler, auf den dist-Ordner begrenzter Loopback-Dateiserver.
-
-Nächster Entwicklungsschritt nach Review: Spielgefühl des kleinen Viertels prüfen, Ansichtsmaßstab und direkte Bauinteraktion an Jonas Feedback anpassen. Danach Ehrenfeld-Geometrie vorbereiten. Keine automatische Ausweitung auf einen vollständigen Städtebausimulator.
+- src/puzzle/engine.ts: deterministische Regeln und Offline-Suche.
+- src/puzzle/levels.ts: neun feste Aufgaben in drei Gruppen.
+- src/puzzle/world.ts: Kapitel-Freischaltung, Story und SVG-Oberwelt.
+- src/puzzle/view.ts: Spielfeld und Spielfiguren.
+- src/puzzle/main.ts: Eingabe, Screens, Undo, Fortschritt, Erfolgseffekte.
+- src/puzzle/style.css / return.css: Grundgestaltung und Abendgarten-Look.
+- city.html / übrige Stadtmodule: historischer Vergleich, unverändert.

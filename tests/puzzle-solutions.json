@@ -1,0 +1,135 @@
+[
+  {
+    "id": "return-01",
+    "moves": 3,
+    "solution": [
+      "right",
+      "right",
+      "right"
+    ],
+    "pushes": 0
+  },
+  {
+    "id": "return-02",
+    "moves": 6,
+    "solution": [
+      "right",
+      "right",
+      "right",
+      "right",
+      "left",
+      "left"
+    ],
+    "pushes": 0
+  },
+  {
+    "id": "return-03",
+    "moves": 8,
+    "solution": [
+      "right",
+      "right",
+      "up",
+      "left",
+      "down",
+      "down",
+      "down",
+      "right"
+    ],
+    "pushes": 0
+  },
+  {
+    "id": "return-04",
+    "moves": 3,
+    "solution": [
+      "right",
+      "right",
+      "right"
+    ],
+    "pushes": 2
+  },
+  {
+    "id": "return-05",
+    "moves": 7,
+    "solution": [
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "left",
+      "left"
+    ],
+    "pushes": 4
+  },
+  {
+    "id": "return-06",
+    "moves": 5,
+    "solution": [
+      "right",
+      "right",
+      "down",
+      "down",
+      "right"
+    ],
+    "pushes": 2
+  },
+  {
+    "id": "return-07",
+    "moves": 9,
+    "solution": [
+      "right",
+      "right",
+      "left",
+      "down",
+      "left",
+      "left",
+      "down",
+      "down",
+      "down"
+    ],
+    "pushes": 0
+  },
+  {
+    "id": "return-08",
+    "moves": 13,
+    "solution": [
+      "right",
+      "right",
+      "left",
+      "left",
+      "left",
+      "right",
+      "down",
+      "down",
+      "right",
+      "down",
+      "left",
+      "left",
+      "up"
+    ],
+    "pushes": 0
+  },
+  {
+    "id": "return-09",
+    "moves": 16,
+    "solution": [
+      "down",
+      "right",
+      "down",
+      "right",
+      "right",
+      "right",
+      "up",
+      "up",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "down",
+      "right",
+      "up"
+    ],
+    "pushes": 1
+  }
+]

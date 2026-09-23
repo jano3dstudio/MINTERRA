@@ -1,1 +1,43 @@
-{"schema":1,"id":"minterra","name":"MINTERRA","appRootFromMap":".","source":"src","repository":".","build":"package.json","rules":"AGENTS.md","verification":"VERIFICATION.md","launch":"MINTERRA.cmd","launchKind":"file","modulePlan":"MODULES.md","packages":["_Pakete"],"testAndScriptFolders":["tests"],"website":"../../JS_Web/minterra","media":"media","concept":"../../JS_GPT_Projects/MINTERRA/SPIELKONZEPT.md","publicUrl":"https://jonaschlegelmilch.de/minterra/play/","pathPolicy":"App source here; canonical website source in JS_Web/minterra; original concept remains in JS_GPT_Projects/MINTERRA.","gitPolicy":"Track source, lockfile, docs and media. Ignore node_modules, dist, packages, private credentials and test exports."}
+{
+  "schema": 1,
+  "id": "minterra",
+  "name": "MINTERRA",
+  "appRootFromMap": ".",
+  "source": "src",
+  "repository": ".",
+  "build": "package.json",
+  "rules": "AGENTS.md",
+  "verification": "VERIFICATION.md",
+  "launch": "MINTERRA.cmd",
+  "launchKind": "file",
+  "modulePlan": "MODULES.md",
+  "packages": [
+    "_Pakete"
+  ],
+  "testAndScriptFolders": [
+    "tests"
+  ],
+  "website": "../../JS_Web/minterra",
+  "media": "media",
+  "concept": "../../JS_GPT_Projects/MINTERRA/RETURN_V0_3.md",
+  "publicUrl": "https://jonaschlegelmilch.de/minterra/play/",
+  "pathPolicy": "App source here; canonical website source in JS_Web/minterra; original concept remains in JS_GPT_Projects/MINTERRA.",
+  "gitPolicy": "Track source, lockfile, docs and media. Ignore node_modules, dist, packages, private credentials and test exports.",
+  "development": {
+    "guide": "DEVELOPMENT.md",
+    "requiredPaths": [
+      "package.json",
+      "package-lock.json",
+      "tsconfig.json",
+      "src/puzzle/engine.ts"
+    ],
+    "buildAndTestCommands": [
+      "node",
+      "npm"
+    ],
+    "frameworkCompiler": false,
+    "manualChecks": [
+      "Actual browser play, responsive layout and personal design review remain separate."
+    ]
+  }
+}
